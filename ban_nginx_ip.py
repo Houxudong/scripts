@@ -1,3 +1,6 @@
+###############################################
+# 获取攻击nginx IP 并自动加入ufw 防火墙deny规则 #
+##############################################
 import re
 import os
 from collections import Counter

@@ -1,3 +1,7 @@
+####################################
+# 获取攻击SSH IP 自动加入hosts.deny #
+####################################
+
 import os
 
 cmd = '''lastb | awk '/ssh/{print $3}' |sort | uniq -c |awk '{print $2"="$1}' > /root/scripts/ban_ip/BlackList '''
