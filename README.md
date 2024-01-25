@@ -1,0 +1,2 @@
+# scritps
+some usefull scripts
